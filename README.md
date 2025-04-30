@@ -20,16 +20,15 @@ The soil moisture sensor is designed to measure the water content in soil using 
 
 ## 2. Pin Drop Detector
 ### Description
-The pin drop detector is an ultra-sensitive acoustic detection system capable of detecting minimal sound events, such as a pin drop, using a microphone and advanced signal processing algorithms.
+The pin drop detector is an ultra-sensitive acoustic detection system capable of detecting minimal sound events, such as a pin drop, using a piezo sensor, advanced signal processing algorithms and machine learning (Random Forest Algorithm) 
 
 ### Features
-- High-gain microphone for detecting low-intensity sounds
+- High-gain piezo sensor for detecting low-intensity sounds
 - Signal processing using STM32 microcontroller
-- Noise filtering and threshold-based event detection
+- Machine Learning and threshold-based event detection
 
 ### Applications
 - Security and surveillance
-- Noise pollution monitoring
 - Sound-based event detection
 
 ## 3. Breath Rate Estimator
@@ -49,7 +48,7 @@ The breath rate estimator is a biomedical application that uses a non-contact me
 ## Hardware Components
 - STM32 Microcontroller
 - TLV9054 Op-Amp (for soil moisture sensor signal conditioning)
-- Microphone (for pin drop detection and breath rate estimation)
+- Piezo Sensor (for pin drop detection and breath rate estimation)
 - Stainless steel electrodes (for soil moisture sensing)
 - MEMS microphone (for breath rate monitoring)
 

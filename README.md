@@ -8,7 +8,7 @@ This project consists of three main components: a **Soil Moisture Sensor**, a **
 The soil moisture sensor is designed to measure the water content in soil using a capacitive sensing method. The sensor consists of stainless electrodes to detect moisture levels and uses an **STM32 microcontroller** for signal processing.
 
 ### Features
-- Capacitive sensing with stainless electrodes
+- Resistive sensing with stainless electrodes
 - Signal conditioning using a **TLV9054 op-amp**
 - Data acquisition via STM32 microcontroller
 - Calibration for repeatability and accuracy
